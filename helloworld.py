@@ -8,7 +8,7 @@ def main():
     window.configure(bg='cyan')
     window.title(TITLE)
     window.configure(bg='green')
-    window.geometry("300x300")
+    window.geometry("400x400")
     label = tk.Label(text=TITLE, fg=COLOR)
     label.pack()
     window.mainloop()
