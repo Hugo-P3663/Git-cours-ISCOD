@@ -4,7 +4,7 @@ import tkinter as tk
 def main():
     window = tk.Tk()
     window.title(TITLE)
-    window.geometry("200x200")
+    window.geometry("300x300")
     label = tk.Label(text=TITLE, fg=COLOR)
     label.pack()
     window.mainloop()
