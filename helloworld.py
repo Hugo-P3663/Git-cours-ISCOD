@@ -8,8 +8,9 @@ def main():
     window.configure(bg='cyan')
     window.title(TITLE)
     window.configure(bg='green')
-    window.geometry("400x400")
+    window.geometry("500x500")
     label = tk.Label(text=TITLE, fg=COLOR)
+    label_date = tk.Label(text=datetime.now())
     label.pack()
     window.mainloop()
 
