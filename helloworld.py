@@ -5,7 +5,7 @@ import tkinter as tk
 #LOCAL
 def main():
     window = tk.Tk()
-    window.configure(bg='yellow')
+    window.configure(bg='cyan')
     window.title(TITLE)
     window.configure(bg='green')
     window.geometry("300x300")
