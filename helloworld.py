@@ -1,6 +1,7 @@
 from const.constants import TITLE, TEXT, COLOR
 import tkinter as tk
 
+#Commentaire
 def main():
     window = tk.Tk()
     window.configure(bg='yellow')
