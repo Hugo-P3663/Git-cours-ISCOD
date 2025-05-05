@@ -1,10 +1,11 @@
+from const.constants import TITLE, TEXT, COLOR
 import tkinter as tk
 
 def main():
     window = tk.Tk()
-    window.title("Hello world")
+    window.title(TITLE)
     window.geometry("200x200")
-    label = tk.Label(text="Hello world", fg="yellow")
+    label = tk.Label(text=TITLE, fg=COLOR)
     label.pack()
     window.mainloop()
 
